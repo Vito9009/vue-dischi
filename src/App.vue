@@ -23,4 +23,8 @@ export default {
 @import "./assets/my_scss/global.scss";
 @import "./assets/my_scss/partials/variables.scss";
 
+body{
+  background-color: $mainColor;
+}
+
 </style>
