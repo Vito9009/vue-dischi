@@ -22,7 +22,7 @@ export default {
 .disc-container{
     width: calc((100% / 5) - 20px);
     margin: 20px 10px;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: $secondaryColor;
 
