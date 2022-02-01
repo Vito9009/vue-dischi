@@ -4,7 +4,7 @@
         <SingleDiscCard 
         v-for="(element, index) in songInfoArray"
         :key="index"
-        :infodisccard="element" 
+        :info-disc-card="element" 
         class="col-2"/>
       </div>
       

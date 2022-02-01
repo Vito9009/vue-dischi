@@ -1,9 +1,9 @@
 <template>
   <div class="disc-container">
-      <img :src="infodisccard.poster" :alt="infodisccard.title">
-      <h3>{{infodisccard.title}}</h3>
-      <h4>{{infodisccard.author}}</h4>
-      <h4>{{infodisccard.year}}</h4>
+      <img :src="infoDiscCard.poster" :alt="infoDiscCard.title">
+      <h3>{{infoDiscCard.title}}</h3>
+      <h4>{{infoDiscCard.author}}</h4>
+      <h4>{{infoDiscCard.year}}</h4>
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 export default {
     name: 'SingleDiscCard',
     props: {
-        'infodisccard': Object
+        'infoDiscCard': Object
     }
 }
 </script>
