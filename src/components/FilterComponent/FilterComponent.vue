@@ -20,11 +20,6 @@ export default {
         return {
             genre: ""
             }
-    },
-    methods: {
-        selectGenre:function(element) {
-            this.genre = element.value;
-        }       
     }
 
 }

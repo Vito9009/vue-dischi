@@ -13,6 +13,7 @@
       </div>
   </div>
 
+
   <div v-else class="container">
       <div class="my_option-container">
           <FilterComponent @myGenre="genresFilter" />
